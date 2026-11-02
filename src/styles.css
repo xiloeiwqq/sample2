@@ -50,7 +50,7 @@ button { cursor: pointer; }
 .hero { position: relative; min-height: 580px; height: min(57vw, 700px); max-height: 750px; overflow: hidden; background: #e8e7e2; }
 .hero-image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 39%; filter: grayscale(1); }
 .hero-wash { position: absolute; inset: 0; background: linear-gradient(90deg, #f3f2ef 0%, #f3f2efed 27%, #f3f2ef75 52%, #f3f2ef1c 100%); mix-blend-mode: screen; opacity: .8; }
-.hero-word { position: absolute; top: 32%; left: 8.5%; color: #111; font-family: Manrope, sans-serif; font-weight: 800; font-size: clamp(150px, 26.4vw, 385px); line-height: .85; letter-spacing: -.075em; user-select: none; -webkit-user-select: none; }
+.hero-word { position: absolute; top: 28%; left: 8.5%; color: #111; font-family: Manrope, sans-serif; font-weight: 800; font-size: clamp(150px, 22vw, 340px); line-height: .85; letter-spacing: -.075em; user-select: none; -webkit-user-select: none; }
 .hero-kicker { position: absolute; top: 16%; left: 8.5%; font-size: 10px; line-height: 1.8; letter-spacing: .3em; font-weight: 600; }
 .hero-kicker span, .hero-edition span { display: block; width: 35px; height: 1px; margin-top: 12px; background: #171717; }
 .hero-copy { position: absolute; z-index: 1; bottom: 13%; left: 8.5%; }
@@ -212,6 +212,11 @@ button { cursor: pointer; }
   .main-nav button, .header-action { font-size: 8px; }
   .header-actions { gap: 13px; }
   .header-action { gap: 5px; }
+  .hero { height: 560px; }
+  .hero-word { top: 32%; left: 6.5%; font-size: clamp(120px, 21vw, 280px); }
+  .hero-kicker { left: 6.5%; }
+  .hero-copy { left: 6.5%; top: 68%; bottom: auto; }
+  .hero-edition { right: 6.5%; bottom: 12%; }
   .category-strip { padding-right: 5%; padding-left: 5%; gap: 3%; }
   .category-tile { gap: 12px; }
   .category-tile > img { flex-basis: 80px; width: 80px; height: 100px; }
